@@ -2,7 +2,7 @@
 
 ## Installation
 
-To use Lumache, install it with pip:
+To use Lumache, first install it with `pip`:
 
 ```console
 (.venv) $ pip install lumache
