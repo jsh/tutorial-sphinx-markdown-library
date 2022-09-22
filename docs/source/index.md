@@ -3,15 +3,19 @@
 % You can adapt this file completely to your liking, but it should at least
 % contain the root `toctree` directive.
 
-``` {include} ../../README.md
+```{include} ../../README.md
 :relative-images:
 ```
+Check out {doc}`/usage` for further information,
+and {ref}`Installation` for installation instructions.
 
 ```{warning}
-This library is under heavy development
+This library is under active development.
 ```
 
 ```{toctree}
 :caption: 'Contents:'
 :maxdepth: 2
+
+usage
 ```
