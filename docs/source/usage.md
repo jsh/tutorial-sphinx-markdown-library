@@ -16,6 +16,7 @@ use the {py:func}`lumache.get_random_ingredients` function:
 ```{eval-rst}
 .. autofunction:: lumache.get_random_ingredients
 ```
+
 The `kind` parameter should be a {py:class}`str`,
 otherwise the function will raise an exception:
 
