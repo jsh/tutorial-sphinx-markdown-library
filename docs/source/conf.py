@@ -34,8 +34,14 @@ extensions = [
     "myst_parser",
     "sphinx.ext.duration",
     "sphinx.ext.autosectionlabel",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.intersphinx",
     "nbsphinx",  # MyST-NB
 ]
+
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3', None)
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
