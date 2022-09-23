@@ -15,4 +15,5 @@ doc = [
     "nbsphinx",
     "sphinx_rtd_theme",
 	"sphinx-autobuild",
+    "ipython",  # for the ipython3 Pygments lexer
 ]

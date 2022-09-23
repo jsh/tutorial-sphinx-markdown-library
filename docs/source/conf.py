@@ -14,6 +14,11 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../..'))  # Source code dir relative to this file
+
+
 
 # -- Project information -----------------------------------------------------
 
@@ -35,6 +40,7 @@ extensions = [
     "sphinx.ext.duration",
     "sphinx.ext.autosectionlabel",
     "sphinx.ext.autodoc",
+    "sphinx.ext.autosummary",
     "sphinx.ext.intersphinx",
     "nbsphinx",  # MyST-NB
 ]
@@ -42,6 +48,8 @@ extensions = [
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3', None)
 }
+
+autosummary_generate = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
