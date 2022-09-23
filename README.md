@@ -1,4 +1,4 @@
-# Lumache
+# Lumache Library
 
 ![Lumache logo](lumache-logo.png)
 
